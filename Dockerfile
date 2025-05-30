@@ -12,5 +12,5 @@ RUN uv sync
 
 COPY main.py .
 
-CMD ["python", "main.py"]
-EXPOSE 8080
+CMD ["/app/.venv/bin/python", "main.py"]
+EXPOSE 8181
